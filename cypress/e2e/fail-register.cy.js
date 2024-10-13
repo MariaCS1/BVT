@@ -3,7 +3,7 @@ describe('Registrasi Pengguna', () => {
     cy.visit('/register'); // Asumsikan URL halaman registrasi adalah /register
 
     // Isi formulir registrasi tanpa mengisi nama
-    cy.get('#email').type('johndoe@example.com');
+    cy.get('#email').type('maria@example.com');
     // ... isi field lainnya sesuai dengan selector
 
     // Klik tombol daftar
